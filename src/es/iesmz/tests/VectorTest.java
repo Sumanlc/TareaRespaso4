@@ -19,5 +19,16 @@ class VectorTest {
         int[] expected = {7, 6, 221, 5, 12, 10};
         assertArrayEquals(expected, reverso(v));
     }
-
+    @Test
+    public void testReverso3() {
+        int[] v = {5};
+        int[] expected = {5};
+        assertArrayEquals(expected, reverso(v));
+    }
+    @Test
+    public void testReverso4() {
+        int[] v = {5, 10, 20};
+        int[] expected = {20, 10, 5};
+        assertArrayEquals(expected, reverso(v));
+    }
 }
