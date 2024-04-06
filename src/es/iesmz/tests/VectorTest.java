@@ -17,7 +17,7 @@ class VectorTest {
     public void testReverso2() {
         int[] v = {10, 12, 5, 221, 6, 7};
         int[] expected = {7, 6, 221, 5, 12, 10};
-        assertArrayEquals(expected, reverso(v)); // JUnit assertion
+        assertArrayEquals(expected, reverso(v));
     }
 
 }
